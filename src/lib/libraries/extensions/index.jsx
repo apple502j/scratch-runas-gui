@@ -16,6 +16,9 @@ import text2speechInsetIconURL from './text2speech/text2speech-small.svg';
 import translateIconURL from './translate/translate.png';
 import translateInsetIconURL from './translate/translate-small.png';
 
+import runasIconURL from './runas/runas.png';
+import runasInsetIconURL from './runas/runas-small.png';
+
 import makeymakeyIconURL from './makeymakey/makeymakey.png';
 import makeymakeyInsetIconURL from './makeymakey/makeymakey-small.svg';
 
@@ -47,6 +50,14 @@ import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
 export default [
+    {
+        name: 'RunAs',
+        extensionId: 'runas',
+        iconURL: runasIconURL,
+        insetIconURL: runasInsetIconURL,
+        description: 'Run some scripts as another sprite.',
+        featured: true
+    },
     {
         name: (
             <FormattedMessage
